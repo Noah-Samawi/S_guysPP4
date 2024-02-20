@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['8000-noahsamawi-sguyspp4-r1fewjafr0a.ws-eu108.gitpod.io']
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-noahsamawi-sguyspp4-r1fewjafr0a.ws-eu108.gitpod.io']
+
 
 # Application definition
 
@@ -37,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'todo',c
+    'todo',
 ]
 
 MIDDLEWARE = [
