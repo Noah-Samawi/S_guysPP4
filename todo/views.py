@@ -1,5 +1,7 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render
 
 # Create your views here.
-def my_blog(request):
-    return HttpResponse("Hello, Guys!")
+def get_todo_list(request):
+    return render(request, 'todo/todo_list.html')
+
+    
