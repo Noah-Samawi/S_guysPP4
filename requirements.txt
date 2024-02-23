@@ -4,3 +4,4 @@ Django==5.0.2
 gunicorn==21.2.0
 psycopg2-binary==2.9.9
 sqlparse==0.4.4
+test coverage==7.4.2
