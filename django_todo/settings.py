@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-n3pzy0ecqc9=joc_-%%r0_u$gfc(%wm&xzq&)rk0x(t2shxd3m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-noahsamawi-sguyspp4-r1fewjafr0a.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['127.0.0.1', '127.0.0.1:8000']
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-noahsamawi-sguyspp4-r1fewjafr0a.ws-eu108.gitpod.io']
 
@@ -137,3 +137,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # This es the code that will be used to connect to the database
+# This code will be used to connect to the database
